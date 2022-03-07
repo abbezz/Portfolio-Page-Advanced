@@ -20,19 +20,11 @@
 
 
 
-API Reference
-Get all items
-  GET /api/items
-Parameter	Type	Description
-user_key	string	207a0c5b1b9e7e8ba746b09b4ecdbd80
-Get item
-  GET /api/items/${id}
-Parameter	Type	Description
-q	string	Data displayed from user input value
-count	Number	Filtered on 20 values
+
 
 Screenshots
-![image](https://user-images.githubusercontent.com/93604239/153688138-44798444-89e9-41e6-923b-4a7d8031a000.png)
+![image]
+![portfolio](https://user-images.githubusercontent.com/94430401/157093871-39202761-ce85-4a31-ae86-f28e51816040.png)
 
 # Deployment
 Link: https://abbezz.github.io/AHA-5-Food--1/
