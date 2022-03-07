@@ -6,6 +6,8 @@
 
 # Project Title - Portfolio-Page-Advanced
 
+Here is my portfolio to showcase my work
+
 
 #Screenshots
 
@@ -27,14 +29,14 @@ CSS
 📫 How to reach me... abbezz@live.com 
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://https://https://abbezz.github.io/Portfolio-Page-Advanced////)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.linkedin.com/in/abdollah-zamannoun-943784226//)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdollah-zamannoun-943784226//)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/AZamannoun/)
 
 ## Lessons Learned
 
 # What did you learn while building this project? What challenges did you face and how did you overcome them?
-Presenting this project was a huge challenge for me because im not good in CSS so this is a good experience for me. 
+Presenting this project was a huge challenge for me because im not good in CSS so this is a good experience for me. y porblem  was to give a right postions for my pictures so it was a challenging for me to do that. 
 
 
 
