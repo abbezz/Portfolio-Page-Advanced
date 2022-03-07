@@ -14,7 +14,7 @@ Here is my portfolio to showcase my work
 ![portfolio](https://user-images.githubusercontent.com/94430401/157093871-39202761-ce85-4a31-ae86-f28e51816040.png)
 
 # Deployment
-Link:https://abbezz.github.io/Portfolio-Page-Advanced/
+Link: https://abbezz.github.io/Portfolio-Page-Advanced/
 
 
 ## 🛠 Skills
@@ -35,8 +35,8 @@ CSS
 
 ## Lessons Learned
 
-# What did you learn while building this project? What challenges did you face and how did you overcome them?
-Presenting this project was a huge challenge for me because im not good in CSS so this is a good experience for me. y porblem  was to give a right postions for my pictures so it was a challenging for me to do that. 
+# What did you learn while building this project? What challenges did you face and how did you overcome them?  
+ this project was a huge challenge for me because im not good in CSS so this is a good experience for me. y porblem  was to give a right postions for my pictures so it was a challenging for me to do that. I need to go back to basic of CSS and learn to get better.
 
 
 
