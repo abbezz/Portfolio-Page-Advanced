@@ -1,6 +1,6 @@
 /* Home */
 #home{
-    height: 820px;
+    height: px;
 }
  .headings{
      font-size: 1.7rem;
@@ -8,8 +8,8 @@
 
  /* About */
  #pic img{
-     width: 300px;
-     height: 175px;
+     width: 900px;
+     height: 575px;
  }
 #intro h2{
     font-size: 1.5rem;

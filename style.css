@@ -1,12 +1,34 @@
-
 *{
-    margin: 0;
-    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
     box-sizing: border-box;
-} 
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+
 html{
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
+
+
+
+html::-webkit-scrollbar{
+    width:1.4rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:#222;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:var(--yellow);
+}
+
+
 
 
 /* navbar */
@@ -18,9 +40,13 @@ html{
     position: sticky;
     font-family: "pacifico", cursive;
     top: 0;
+    padding: 3rem;
+    height: 0rem;
+    min-height: 12vh;
     
 }
 @media (max-width: 991.98px) {
+    
     .navbar-light .navbar-nav .nav-link {
       padding: 10px 0;
     }
@@ -46,17 +72,23 @@ html{
 
 
 .navbar ul{
+    margin: 0;
+    padding: 0;
     display: flex;
-    list-style: none;
+    justify-content: space-between;
+    text-align: center;
 }
 .navbar ul a{
     font-size: 1.1rem;
 }
 .navbar ul a{
     padding: 10px 30px;
+    opacity: 0,6;
     text-decoration: none;
+    transition: 0,3s;
+    display: block;
     color: gold;
-    box-shadow: black;
+    
 }
 
 .navbar ul a:hover{
@@ -143,15 +175,19 @@ html{
  }
  
  .about-container{
-    
+    width: 100%;
     display: flex;
+    margin: auto;
     justify-content: space-evenly;
-    color: silver
+    color: black;
+    
     
     
  }
  
  .sub-about h2{
+     width: 55%;
+     float: left;
     font-size: 50px;
     text-align: left;
     margin-left: 430px;
@@ -165,12 +201,13 @@ html{
     line-height: 1.3;
     text-align: center;
     margin-top: 3vh;
+    padding-bottom: 25px;
    
  }
 
  .graduation img{
     width: 300px;
-    margin: -3vw 14vh 0vh 0vh;
+    margin: -3px 14px 0px 0px;
     box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
     transform:  (5deg);
    background-color: black
@@ -179,7 +216,7 @@ html{
 .footer.content{
     background-color: black;
     height: auto;
-    width: 100vw;
+    width: 100%;
     font-family: "open sans";
     padding-top: 40px;
     color: orange;
@@ -284,4 +321,24 @@ h2{
 }
 
 
-    
+.sidebar{
+    grid-area: sidebar;
+    background: linear-gradient(to right,
+    rgba(249,107,142,1),
+    rgba(218,103,230,1),
+    rgba(130,125,253,1));
+    justify-content: center;
+}
+
+.container{
+    font-size: 1.5em;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+         "sidebar"
+         "content"
+         "footer";
+         grid-template-columns: 1fr;
+         grid-template-rows: 130px 800px 250px;
+}
