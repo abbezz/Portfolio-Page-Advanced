@@ -154,6 +154,7 @@ html::-webkit-scrollbar-thumb{
 .gallery img{
     width: 350px;
     height: 300px;
+    border-radius: 20%;
     padding: 10px;
     margin: 10px;
     
@@ -341,4 +342,9 @@ h2{
          "footer";
          grid-template-columns: 1fr;
          grid-template-rows: 130px 800px 250px;
+}
+.site-footer h3{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #FF3CAC;
 }
